@@ -57,7 +57,7 @@ def hello():
     cursor.close()
     connection.close()
 
-    return message
+    return message + " - Version 2"
 
 
 if __name__ == "__main__":

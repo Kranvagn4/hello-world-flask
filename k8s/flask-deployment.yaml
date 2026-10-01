@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: hello-world-flask:tw2
+          image: hello-world-flask:v1
           imagePullPolicy: IfNotPresent
 
           ports:
